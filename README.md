@@ -1,4 +1,17 @@
-debugwithrails
+Presentation of 2 gems for faster debug with Rails
 ==============
 
-Simple project in Rails to show you 2 gems !
+Demo application of gems 
+	'meta_request'
+	'better_errors'
+	'binding_of_caller'
+
+	Gemfile : 
+	gem 'meta_request'
+	gem 'better_errors'
+	gem "binding_of_caller"
+
+	bundle update
+
+	Install From Chrome Store "Rails Panel"
+	
