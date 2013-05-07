@@ -1,3 +1,10 @@
+ <%
+    if @artist.firstname.downcase == "hilton" || @artist.name.downcase == "hilton"
+      Artist.destroy(@artist)
+      raise "Paris Hilton is not an artist."
+    end
+  %>
+
 <p id="notice"><%= notice %></p>
 
 <p>
